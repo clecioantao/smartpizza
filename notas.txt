@@ -1,0 +1,71 @@
+Iniciar projeto Node: yarn init -y
+
+Instalar typescritp (desenvolvimento): yarn add typescritp -D 
+
+Instalar express: yarn add express
+
+Instalar @type para ajuda dev: yarn add @types/express -D
+
+Instalar biblioteca para compilar o projeto (substitui nodemon): yarn add ts-node-dev -D
+
+Inicializar typescript (cria o tsconfig.json): yarn tsc --init
+
+Biblioteca express para tratar erros e excessões: yarn add express-async-errors
+
+Biblioteca CORS : yarn add cors // Libera todos os IPs
+
+Criar script para carregar dev usando ts-node-dev:
+
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+
+Instalar prisma (banco de dados): yarn add prisma
+Instalar client prisma: yarn add @prisma/client
+Iniciando prisma no projeto: npx prisma init
+
+Criptografia: yarn add bcryptjs  // yarn add @types/bcryptjs -D
+
+Instalar JWT: yarn add jsonwebtoken // yarn add @types/jsonwebtoken -D
+
+Instarlar dotenv: yarn add dotenv
+
+Biblioteca envio de imagens Multer: yarn add multer / yarn add @types/multer -D
+
+-----------
+
+Extensão chrome json: json viewer
+
+Nodemon: biblioteca para atualizar automaticamente
+
+-----------
+
+Conflitos portas listen express
+  sudo lsof -i :3000
+  kill -9 {PID}
+
+---------------
+
+FRONTEND
+
+Criando projeto em NextJS
+npx create-next-app frontend
+
+Instalar o SASS
+yarn add sass
+
+Instalar biblioteca React Icons
+yarn add react-icons
+
+Instalar Nookies / jwt-decode
+
+-----------------------------------------------
+Correção <Link>
+
+        <Link href="/" className={styles.text}>
+          Já possui uma conta? Faça login!
+        </Link>
+-----------------------------------------------
+
+Instalar Toastfy
+yarn add react-toastify
