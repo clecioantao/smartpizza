@@ -73,3 +73,20 @@ yarn add react-toastify
 Instalar Modal
 yarn add react-modal
 yarn add @types/react-modal -D
+
+
+------------------------------------------------------------------
+
+Seção 9 - Criando aplicativos
+
+Instalar Expo
+npm install --global expo-client
+expo --version
+
+Criar projeto:
+expo init projeto
+
+Iniciar projeto expo:
+expo start
+
+
