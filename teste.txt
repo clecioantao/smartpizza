@@ -1,0 +1,12 @@
+	•	Padronização da nomenclatura das branches de Develop
+	•	Ajuste nas branchs de develop:
+	•	releases (Mi Negocio Android/ AVON) -> develop 
+	•	release (Mi Negocio IOS) -> develop 
+	•	App Consultoria já se encontra no padrão -> develop 
+
+A partir do dia 05/01/2023 as PRs só serão aceitas dentro do novo padrão apresentado.
+ As PRs enviadas até o dia 04/01/2023 seguirão o processo antigo.
+
+ https://natura.atlassian.net/wiki/spaces/ST/pages/3686531269/Nova+branch+padr+o+de+desenvolvimento
+
+ o System Team somente atenderá as solicitações através de abertura de cards no Jira.

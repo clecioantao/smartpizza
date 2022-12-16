@@ -89,4 +89,16 @@ expo init projeto
 Iniciar projeto expo:
 expo start
 
+-------------------------------------------------------------------
+
+Projeto Mobile
+
+Biblioteca React Navigation
+expo install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+npx pod-install ios
+expo install @react-navigation/native-stack
+
+Instalar Axios
+expo install Axios
 
