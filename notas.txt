@@ -102,3 +102,7 @@ expo install @react-navigation/native-stack
 Instalar Axios
 expo install Axios
 
+baseURL: 'http://192.168.0.161:3333'
+
+import {AsyncStorage} from 'react-native';
+
